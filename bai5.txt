@@ -1,0 +1,20 @@
+Phần 1: 
+so sánh đường dẫn tuyệt đối và tương đối:
+-đường dẫn tuyệt đối
++ ghi đầy đủ từ ổ đĩa, phụ thuộc vào ổ đĩa và thư mục gốc
++nếu chuyển sang máy khác sẽ bị lỗi 
+-đường dẫn tương đối:
++ghi từ vị trí file code đang chạy 
++không phụ thuộc vào ổ đĩa và tên user 
++nếu chuyển sang máy khác không bị lỗi
+ thời gian tải file 20gb với gói 80mbps :
+80mbps:8 = 10mb/s
+2gb = 2048mb
+2048:10 = 204,8 giây 
+Phần 2:
+-đường dẫn file dưới dạng Relative Path :./data/db.cs
+-kiểm tra file mã độc:
++Mở File Explorer.
++Chọn View → Show → File name extensions.
++Kiểm tra lại tên file.
++Nếu thấy tai_lieu.pdf.exe thì đây là file .exe, không phải PDF -> không mở file.
